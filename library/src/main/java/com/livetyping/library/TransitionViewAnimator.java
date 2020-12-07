@@ -2,8 +2,8 @@ package com.livetyping.library;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.transition.Transition;
-import android.support.transition.TransitionManager;
+import androidx.transition.Transition;
+import androidx.transition.TransitionManager;
 import android.util.AttributeSet;
 import android.view.View;
 

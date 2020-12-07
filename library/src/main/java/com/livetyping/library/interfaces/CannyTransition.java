@@ -1,6 +1,6 @@
 package com.livetyping.library.interfaces;
 
-import android.support.transition.Transition;
+import androidx.transition.Transition;
 import android.view.View;
 
 public interface CannyTransition {

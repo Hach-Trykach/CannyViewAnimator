@@ -8,13 +8,13 @@
     android:orientation="vertical"
     tools:context="com.livetyping.cannyviewanimator.choose.list.ChooseListActivity">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/choose_list_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:background="?colorPrimary"/>
 
-    <android.support.v7.widget.RecyclerView
+    <view class="androidx.appcompat.app.AlertController$RecycleListView"
         android:id="@+id/choose_list_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

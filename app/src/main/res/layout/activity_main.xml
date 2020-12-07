@@ -11,22 +11,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.livetyping.cannyviewanimator.MainActivity">
 
-    <android.support.v7.widget.AppCompatTextView
+    <TextView
         android:id="@+id/main_activity_start_custom"
         style="@style/Widget.AppCompat.Button.Borderless.Colored.MainActivityButton"
         android:text="@string/main_custom_example"/>
 
-    <android.support.v7.widget.AppCompatTextView
+    <TextView
         android:id="@+id/main_activity_start_xml"
         style="@style/Widget.AppCompat.Button.Borderless.Colored.MainActivityButton"
         android:text="@string/main_xml_example"/>
 
-    <android.support.v7.widget.AppCompatTextView
+    <TextView
         android:id="@+id/main_activity_start_transition"
         style="@style/Widget.AppCompat.Button.Borderless.Colored.MainActivityButton"
         android:text="@string/main_transition_example"/>
 
-    <android.support.v7.widget.AppCompatTextView
+    <TextView
         android:id="@+id/main_activity_start_choose"
         style="@style/Widget.AppCompat.Button.Borderless.Colored.MainActivityButton"
         android:text="@string/main_choose_your_animation"/>

@@ -1,12 +1,13 @@
 package com.livetyping.cannyviewanimator.transition;
 
 import android.os.Bundle;
-import android.support.transition.Fade;
-import android.support.transition.Transition;
-import android.support.transition.TransitionSet;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.transition.Fade;
+import androidx.transition.Transition;
+import androidx.transition.TransitionSet;
 
 import com.livetyping.cannyviewanimator.R;
 import com.livetyping.library.CannyViewAnimator;

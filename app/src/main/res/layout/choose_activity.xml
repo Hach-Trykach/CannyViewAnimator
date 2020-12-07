@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.LinearLayoutCompat
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,13 +13,13 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.FirstView"/>
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.SecondView"/>
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.ThirdView"/>
     </com.livetyping.library.CannyViewAnimator>
 
@@ -30,19 +30,19 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/choose_location_for_position"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="For position"/>
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/choose_location_in_always_top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="In always top"/>
 
-        <RadioButton
+        <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/choose_location_out_always_top"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,41 +56,41 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="left|center_vertical"
             android:text="Sequentially"/>
 
-        <android.support.v7.widget.SwitchCompat
+        <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/choose_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:clickable="false"/>
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right|center_vertical"
             android:text="Together"/>
     </FrameLayout>
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         android:id="@+id/choose_in_button"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Select in animator"/>
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         android:id="@+id/choose_out_button"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Select out animator"/>
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         android:id="@+id/choose_start_button"
         style="@style/Widget.AppCompat.Button.Colored.StartButton"/>
-</android.support.v7.widget.LinearLayoutCompat>
+</LinearLayout>

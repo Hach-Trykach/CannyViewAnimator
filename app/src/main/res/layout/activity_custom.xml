@@ -13,17 +13,17 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.FirstView"/>
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.SecondView"/>
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.ThirdView"/>
     </com.livetyping.library.CannyViewAnimator>
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         android:id="@+id/custom_start_button"
         style="@style/Widget.AppCompat.Button.Colored.StartButton"/>
 

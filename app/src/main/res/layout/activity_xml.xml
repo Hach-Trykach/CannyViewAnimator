@@ -17,17 +17,17 @@
         app:out="circular_center"
         app:pre_lollipop_out="scale_x|scale_y|alpha">
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.FirstView"/>
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.SecondView"/>
 
-        <android.support.v7.widget.AppCompatTextView
+        <TextView
             style="@style/CannyExampleView.ThirdView"/>
     </com.livetyping.library.CannyViewAnimator>
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         android:id="@+id/xml_start_button"
         style="@style/Widget.AppCompat.Button.Colored.StartButton"/>
 
